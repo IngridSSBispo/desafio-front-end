@@ -4,14 +4,19 @@
  
  *{
     font-family: arial;
-    /*font-size: 1.3em; */
     margin: 0px;
     box-sizing: border-box
+ }
+
+ body,html{
+    height: 100vh;
  }
 
  body{
     background-color:#090e16;
     color: #fff;
+    background-position: center center;
+    
  }
 
  p{
@@ -91,11 +96,27 @@ nav{
     border-radius: 23px;
     padding: 30px;
     margin: 50px auto;
-    padding-top: 110px;
-    padding-bottom: 110px;
-    padding-left: 110px;
-    padding-right: 110px;
 
 
 }
 
+.square-destaque{
+    background-color:rgba(98, 99, 211, 0.2);
+    
+}
+
+.square-high{
+    font-weight: bold;
+    font-size: 30px;
+   
+
+}
+
+.square-label{
+    
+    font-size: 15px;
+}
+
+.square-text{
+    text-align: center;
+}
