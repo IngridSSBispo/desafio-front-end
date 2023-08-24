@@ -80,10 +80,17 @@ nav{
     width: 400px;
 }
 
-.coluna{
-    margin-left: 20px;
+.container{
+    margin: 0 0 0 20px;
 }
 
+.linha{
+    
+}
+
+.coluna{
+    
+}
 
 .margin-md{
     margin-top: 20px;
@@ -94,9 +101,9 @@ nav{
     height: 300px;
     border: solid 1px #7B4AE2;
     border-radius: 23px;
-    padding: 30px;
+    padding: 80px 0;
     margin: 50px auto;
-
+    text-align: center;
 
 }
 
@@ -130,4 +137,8 @@ nav{
     opacity: 50%;
     font-size: 15px;
     text-align: justify;
+}
+
+.whatsapp{
+    margin-left: 20px;
 }
