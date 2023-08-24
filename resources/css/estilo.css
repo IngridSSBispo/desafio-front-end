@@ -13,9 +13,10 @@
  }
 
  body{
-    background-color:#090e16;
+    background-color:#090E16;
     color: #fff;
     background-position: center center;
+    
     
  }
 
@@ -27,6 +28,7 @@
 
 img{
     margin: auto;
+    
 }
 
 nav{
@@ -90,6 +92,8 @@ nav{
     margin: 0 0 0 20px;
 }
 
+
+
 .linha{
     
 }
@@ -134,6 +138,17 @@ nav{
     text-align: center;
 }
 
+
+.square-projects{
+    width: 300px;
+    height: 400px;
+    border: solid 1px #7B4AE2;
+    border-radius: 23px;
+    padding: 80px 0;
+    margin: 50px auto;
+    text-align: left;
+}
+
 .sobre-mim{
     color: #7B4AE2;
     padding: 5px;
@@ -148,3 +163,19 @@ nav{
 .whatsapp{
     margin-left: 20px;
 }
+
+.text-nlw{
+    opacity: 50%;
+    font-size: 15px;
+    text-align: left;
+}
+
+.text-moveit{
+    font-size: 15px;
+    font-weight: bold;
+    
+   
+
+
+}
+
