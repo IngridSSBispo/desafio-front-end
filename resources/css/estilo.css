@@ -20,12 +20,6 @@
     
  }
 
- p{
-    font-family: arial;
-    font-size: 16px;
-    padding: 20px;
-}
-
 img{
     margin: auto;
     
@@ -135,7 +129,7 @@ nav{
     height: 550px;
     border: solid 1px #7B4AE2;
     border-radius: 23px;
-    padding: 80px 40px;
+    padding: 50px 40px;
     margin: 50px 0 50px 25px;
     text-align: left;
 }
@@ -154,15 +148,17 @@ nav{
 .whatsapp{
     margin-left: 20px;
 }
-
+.text-justify{
+    text-align: justify;
+}
 .text-opaco{
-    opacity: 50%;
-    font-size: 15px;
-    text-align: left;
+    margin: 20px auto;
+    opacity: 30%;
+    font-size: 23px;
 }
 
 .text-square-title{
-    font-size: 15px;
+    font-size: 27px;
     font-weight: bold;
 }
 
