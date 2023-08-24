@@ -1,4 +1,4 @@
- @charset "UTF-8";
+@charset "UTF-8";
 
  /*versão mobile first */
  
@@ -55,6 +55,11 @@ nav{
     height: 35px;
     border-radius: 5px;
     
+ }
+
+ .side-by-syde{
+    display: flex;
+    flex-direction: row;
  }
 
  .saudacao{
@@ -167,4 +172,3 @@ nav{
     opacity: 50%;
 
 }
-
