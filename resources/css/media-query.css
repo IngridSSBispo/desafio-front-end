@@ -1,7 +1,21 @@
 @charset "UTF-8";
+/*
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px; 
+    }
 
+    .container {
+        
+        margin: 0 10px; 
+
+    .img-avatar {
+        width: 100%; 
+        max-width: 300px; 
+    }
+}
+
+}
+*/
  /*outras versões */
 
-@media screen and(min-width: 600px) and (max-width:1920px) {
-    
-}
