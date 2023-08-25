@@ -22,6 +22,8 @@
 
 img{
     margin: auto;
+    max-width: 100%;
+    height: auto; 
     
 }
 
@@ -31,7 +33,7 @@ img{
 
 figure{
     text-align: center;
-    width: 80vh;
+    /*width: 80vh;*/
 }
 
 .img-avatar{
@@ -44,20 +46,34 @@ nav{
     margin-top: 25px;
 }
 
+@media  screen and (max-width: 600px) {
+    
+
+    
+}
+
+@media  screen and (max-width: 1720px) {
+    
+    
+    
+    
+}
+
 .container{
-    width: 80vh;
+    width: 100%;
     margin: 0 0 0 20px;
 }
 
- .container-saudacao{
-    background-color:  rgba(98, 99, 211, 0.3);
-    width: 130px;
-    height: 35px;
-    border-radius: 5px;
-    
- }
+.container-saudacao{
+   background-color:  rgba(98, 99, 211, 0.3);
+   width: 130px;
+   height: 35px;
+   border-radius: 5px;
+   
+}
 
- .side-by-syde{
+
+ .side-by-side{
     display: flex;
     flex-direction: row;
  }
@@ -86,25 +102,33 @@ nav{
     font-size: 20px;
  }
 
-.linha{
-    
+ .linha {
+    display: flex;
+    flex-direction: column; 
 }
 
-.coluna{
-    
+.coluna {
+    margin: 10px 0; 
+}
+
+/* Flex */
+.flex {
+	display: flex;
 }
 
 .margin-md{
     margin-top: 20px;
 }
-
+.margin-right-md{
+    margin-right: 20px;
+}
 .square{
-    width: 70vh;
+    width: 90%;
     height: 300px;
     border: solid 1px #7B4AE2;
     border-radius: 23px;
     padding: 80px 0;
-    margin: 50px 0 50px 25px;
+    margin: 15px 0 20px 0;
     text-align: center
 
 }
@@ -130,7 +154,7 @@ nav{
 
 
 .square-projects{
-    width: 70vh;
+    width: 90%;
     height: 550px;
     border: solid 1px #7B4AE2;
     border-radius: 23px;
@@ -138,6 +162,12 @@ nav{
     margin: 50px 0 50px 25px;
     text-align: left;
 }
+
+
+.square-text-projects {
+    text-align: center;
+}
+
 
 .topic{
     color: #7B4AE2;
@@ -149,17 +179,34 @@ nav{
     font-size: 15px;
     text-align: justify;
 }
-
-.whatsapp{
-    margin-left: 20px;
+.bt{
+    background-color: #090E16;
+    padding: 10px;
+    font-size: 17px;
+    
 }
+.bt-whats{
+    width: 200px;
+    border: solid 1px #362667;
+    border-radius: 15px;
+}
+
+.bt-download{
+    border: none;
+}
+
 .text-justify{
     text-align: justify;
 }
 .text-opaco{
-    margin: 20px auto;
+    margin: 20px 0;
     opacity: 30%;
-    font-size: 23px;
+    font-size: 17px;
+    width: 90%;
+}
+.text-purple{
+    color: #7B4AE2;
+    opacity: 60%;
 }
 
 .text-square-title{
