@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta name = "viewport" content="width = device-width initial-scale=1.0">
+    <meta name = "viewport" content="width = device-width, initial-scale=1.0">
     <meta charset="utf-8"> 
     <title>Portfólio</title>
     <link rel="stylesheet" type="text/css"href="resources/css/estilo.css" media="all">
@@ -27,7 +27,9 @@
             <div class="linha">
                 <div class="coluna">
                     <div class="container-saudacao ">
-                        <div class="saudacao margin-md"> &#128075 Saudações!</div>
+                        <div class="saudacao margin-md"> 
+                            <span>&#128075 Saudações!</span>
+                        </div>
                     </div>
                     <div class="margin-md">
                         <span class="nome">Henrique Sousa</span>
@@ -39,17 +41,29 @@
                 
                 </div>
             </div>
-            <div class="linha">
-                <div class="coluna margin-md">
-                    <div>
-                        <img class="curriculo" src="resources/img/CVDownload.png" alt="baixar currículo">
-                   
-                        <img class="whatsapp"  src="resources/img/whatsapp.png" alt="vamos conversar via whatsapp">
-                    </div>
+
+
+            <div class="flex">
+                <div>
+                   <button class="bt bt-download margin-right-md">
+                        <img src="resources/img/icones/ArrowLineDown.png" alt="">
+                        <span class="text-purple">
+                            Baixar CV
+                        </span>
+                   </button>
+                </div>
+                <div>
+                    <button type="button" class="bt bt-whats text-purple ">
+                        <img src="resources/img/icones/WhatsappLogo.png" alt="logo whatsapp">
+                        Vamos conversar
+                    </button>
                 </div>
             </div>
-        </section>
 
+                            
+                            
+
+        </section>
         <section id="courses" >
             <div class="linha">
                 <div class="coluna">
@@ -134,12 +148,12 @@
                         <span class="text-square-title">Move.it</span>
                         <br>
                         <div class="text-opaco">Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.</div>
-                        <div class="topic container-saudacao">  React JS </div>
-                        <div class="topic container-saudacao">  Typescript </div>
-
                         <img src="resources/img/moveIt.png" alt="Move It">
+
                     </div>
-                    <span class="link-behance">Ver mais projetos na Behance → </span>
+                  <div>
+                      <span class="link-behance">Ver mais projetos na Behance → </span>
+                  </div>
                 </div>
         </section>
         </section>
@@ -167,10 +181,10 @@
                 <span class="trabalhos-projetos">Tecnologias e habilidades</span>
                 <br>
                 <div class="text-opaco">Techs que uso no dia a dia</div>
-                <img src="resources/img/icones/WorkingTechs.png" alt="tecnologias usadas no dia a dia">
+                
                 <br>
                 <div class="text-opaco">Outras techs com que já realizei projetos</div>
-                    <img src="resources/img/icones/ProjectsTechs.png" alt="outras tecnologias ja usadas">
+                    
             </div>
         </section>
         <section>
