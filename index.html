@@ -10,14 +10,19 @@
 </head>
 
 <body>
-    <div class= "container">
-        <nav>
-            <img id= "linkedin" src="resources/img/linkedin.png" alt="linkedin">
-            <img id="github" src="resources/img/github.png" alt="github">
-            <img id="behance" src="resources/img/behance.png" alt="behance">
-        </nav>
-    </div>
-    <main style="margin-left: 20px;" class="container">
+    <nav class="">
+        <figure class="social-icons">
+            <img id= "linkedin" src="resources/imagens/linkedin.svg" alt="linkedin">
+        </figure>
+        <figure class="social-icons">
+            <img id="github" src="resources/imagens/github.svg" alt="github">
+        </figure>
+        <figure class="social-icons">
+            <img id="behance" src="resources/imagens/behance.svg" alt="behance">
+        </figure>
+    </nav>
+
+    <main class="container">
 
         <section id="profile">
             <figure id="imagem-topo">
@@ -27,7 +32,7 @@
             <div class="linha">
                 <div class="coluna">
                     <div class="container-saudacao ">
-                        <div class="saudacao margin-md"> 
+                        <div class="saudacao"> 
                             <span>&#128075 Saudações!</span>
                         </div>
                     </div>
@@ -38,18 +43,18 @@
                         <span class="job-title">Front-end developer · UI designer</span>
                     </div>
                     
-                
+
                 </div>
             </div>
 
 
-            <div class="flex">
+            <div class="flex margin-top-md margin-bottom-lg">
                 <div>
-                   <button class="bt bt-download margin-right-md">
-                        <img src="resources/img/icones/ArrowLineDown.png" alt="">
-                        <span class="text-purple">
-                            Baixar CV
+                   <button class="bt bt-download margin-right-md margin-left-md">
+                       <span class="text-purple">
+                           Baixar CV
                         </span>
+                        <img src="resources/img/icones/ArrowLineDown.png" alt="">
                    </button>
                 </div>
                 <div>
@@ -64,59 +69,72 @@
                             
 
         </section>
-        <section id="courses" >
-            <div class="linha">
-                <div class="coluna">
-                    <div class="square">
-                        <img src="resources/img/simbolos/CodeIcon.png" alt="programador">
-                        <div class="square-text">
-                            <span class="square-label">3 anos como</span>
-                            <br>
-                            <span class="square-high">Programador</span>
-                        </div>
+        <section id="courses" class="margin-bottom-lg">
+            <div>
+                <div class="card">
+                    <img src="resources/img/simbolos/CodeIcon.png" alt="programador">
+                    <div class="card-text">
+                        <span class="card-label">3 anos como</span>
+                        <br>
+                        <span class="card-high">Programador</span>
                     </div>
                 </div>
-            </div>
-            <div class="linha">
-                <div class="coluna">
-                    <div class="square">
-                        <img src="resources/img/simbolos/DesignIcon.png" alt="designer">
-                        <div class="square-text">
-                            <span class="square-label">4 anos como</span>
-                            <br>
-                            <span class="square-high">Designer</span>
-                        </div>
+            <div>
+                <div class="card">
+                    <img src="resources/img/simbolos/DesignIcon.png" alt="designer">
+                    <div class="card-text">
+                        <span class="card-label">4 anos como</span>
+                        <br>
+                        <span class="card-high">Designer</span>
                     </div>
                 </div>
-            </div>
-            <div class="linha">
-                <div class="coluna">
-                    <div class="square square-destaque">
-                        <img src="resources/img/simbolos/ProjectsIcon.png" alt="trabalhos">
-                        <div class="square-text">
-                            <span class="square-label">7 anos de</span>
-                            <br>
-                            <span class="square-high">Trabalhos</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="bio">
-            <div class="img-center">
-                <img src="resources/img/ProfilePic.png" alt="foto perfil Whashington Henrique">
-            </div>
-            <div class="topic container-saudacao "> 🧐 Sobre mim </div>
-            <div class="margin-md">
-                <span class="nome">Washington Henrique</span>
             </div>
             <div>
-                <div class="text-opaco text-justify"> Mas pode me chamar apenas de Henrique. Prazer! Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript. Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos. Interesses em desenvolvimento Front-end com React, React Native e UX/UI Design.</div>
-                <div class="text-opaco text-justify">🚀 Tentando ser um pouquinho melhor do que ontem todos os dias.</div>
+                <div class="card card-destaque">
+                    <img src="resources/img/simbolos/ProjectsIcon.png" alt="trabalhos">
+                    <div class="card-text">
+                        <span class="card-label">7 anos de</span>
+                        <br>
+                        <span class="card-high">Trabalhos</span>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section id="bio">
+
+            <div class="linha">
+                <div class="coluna">
+                    <div class="img-center">
+                        <img src="resources/img/ProfilePic.png" alt="foto perfil Whashington Henrique">
+                    </div>
+
+                </div>
+        
+                <div class="coluna">
+                    <div class="topic container-saudacao "> 
+                        <div>
+                            <span>🧐 Sobre mim</span>
+                        </div>    
+                    </div>
+                </div>
+           
+                <div class="coluna">
+                    <div class="">
+                        <span class="nome">Washington Henrique</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="linha">
+                <div class="coluna text-opaco text-justify">
+                    <p class=""> Mas pode me chamar apenas de Henrique. Prazer! Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript. Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos. Interesses em desenvolvimento Front-end com React, React Native e UX/UI Design.</p>
+                    <br>
+                    <p class="">🚀 Tentando ser um pouquinho melhor do que ontem todos os dias.</p>
+                </div>
             </div>
             
         </section>
-        <section id="portfolio">
+        <!--<section id="portfolio">
             <div class="topic container-saudacao"> 🔗 Portfólio </div>
             <div class="margin-md">
                 <span class="trabalhos-projetos">Trabalhos e projetos</span>
@@ -127,25 +145,25 @@
                 <img src="resources/img/simbolos/ui-design.png" alt="ui-design">
             </div>
             <section>
-                <div class="square-projects">
-                    <div class="square-text-projects">
-                        <span class="text-square-title">Move.it</span>
+                <div class="card-projects">
+                    <div class="card-text-projects">
+                        <span class="text-card-title">Move.it</span>
                         <br>
                         <div class="text-opaco">Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.</div>
                         <img src="resources/img/moveIt.png" alt="Move It">
                     </div>
                 </div>
-                <div class="square-projects">
-                    <div class="square-text-projects">
-                        <span class="text-square-title">Move.it</span>
+                <div class="card-projects">
+                    <div class="card-text-projects">
+                        <span class="text-card-title">Move.it</span>
                         <br>
                         <div class="text-opaco">Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.</div>
                         <img src="resources/img/moveIt.png" alt="Move It">
                     </div>
                 </div>
-                <div class="square-projects">
-                    <div class="square-text-projects">
-                        <span class="text-square-title">Move.it</span>
+                <div class="card-projects">
+                    <div class="card-text-projects">
+                        <span class="text-card-title">Move.it</span>
                         <br>
                         <div class="text-opaco">Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.</div>
                         <img src="resources/img/moveIt.png" alt="Move It">
@@ -162,13 +180,13 @@
                 <span class="trabalhos-projetos">Projetos em vídeos</span>
                 <br>
                 <div class="text-opaco">Sempre é bom saber um pouquinho de edição</div>
-                <div class="square-projects">
-                    <div class="square-text-projects">
+                <div class="card-projects">
+                    <div class="card-text-projects">
                         <div class="visgeo">
                             <img src="resources/img/visgeo.png" alt="visgeo">
                         </div>
                         <div>
-                        <span class="text-square-title">Visgeo</span>
+                        <span class="text-card-title">Visgeo</span>
                         <br>
                         <div class="text-opaco">Sistema web ETL no qual dados georreferenciados serão extraídos de shapefiles</div>
                         </div>
@@ -193,5 +211,6 @@
                     <div class="topic container-saudacao"> 💼Carreira</div>
                     <span class="trabalhos-projetos">Trajetória até aqui</span>
         </section>
+    -->
     </main>
 </body>
