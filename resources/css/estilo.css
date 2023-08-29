@@ -85,12 +85,16 @@ figure{
  }
 
  .nome{
-    color: #FFF;
+color: #FFF;
 font-family: Raleway;
 font-size: 24px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+ }
+
+ .nome-completo{
+    display: none;
  }
  .trabalhos-projetos{
     font-family: sans-serif;
@@ -161,6 +165,11 @@ line-height: normal;
 
 .card-text{
     text-align: center;
+}
+
+.card-frontend{
+    display: none;
+
 }
 
 
