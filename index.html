@@ -6,11 +6,28 @@
     <meta charset="utf-8"> 
     <title>Portfólio</title>
     <link rel="stylesheet" type="text/css"href="resources/css/estilo.css" media="all">
-    <link rel="stylesheet" href="resources/css/media-query.css">
+    <link rel="stylesheet" type="text/css"href="resources/css/estiloDesktop.css " media="all">
+    
 </head>
 
 <body>
-    <nav class="">
+    
+
+    <nav class="head-menu container">
+        <figure>
+            <img src="resources/imagens/Logo.svg" alt="">
+        </figure>
+        <a href="#" class="head-menu-options">Home</a>
+        <a href="#" class="head-menu-options">Sobre mim</a>
+        <a href="#" class="head-menu-options">Portfólio</a>
+        <a href="#" class="head-menu-options">Skills</a>
+        <a href="#" class="head-menu-options">Carreira</a>
+        <a href="#" class="head-menu-options" style=" width: 152px;">Recomendações</a>
+        <a href="#" class="head-menu-options">Contato</a>
+        
+    </nav>
+
+    <div class="main-icons">
         <figure class="social-icons">
             <img id= "linkedin" src="resources/imagens/linkedin.svg" alt="linkedin">
         </figure>
@@ -20,16 +37,19 @@
         <figure class="social-icons">
             <img id="behance" src="resources/imagens/behance.svg" alt="behance">
         </figure>
-    </nav>
+    </div>
 
     <main class="container">
 
-        <section id="profile">
-            <figure id="imagem-topo">
-                <img class="img-avatar" src="resources/img/avatar.png" alt="avatar do Henrique Sousa">
-            </figure>
+        <section id="profile" class="container-profile">
+            
+            <div class="main">
+                <figure id="imagem-topo ">
+                    <img class="img-avatar" src="resources/img/avatar.png" alt="avatar do Henrique Sousa">
+                </figure>
+            </div>
     
-            <div class="linha">
+            <div class="linha main">
                 <div class="coluna">
                     <div class="container-saudacao ">
                         <div class="saudacao"> 
@@ -37,7 +57,7 @@
                         </div>
                     </div>
                     <div class="margin-md">
-                        <span class="nome">Henrique Sousa</span>
+                        <span class="nome">Henrique <br> Sousa</span>
                     </div>
                     <div class="margin-md">
                         <span class="job-title">Front-end developer · UI designer</span>
@@ -48,7 +68,7 @@
             </div>
 
 
-            <div class="flex margin-top-md margin-bottom-lg">
+            <div class="flex main margin-top-md margin-bottom-lg">
                 <div>
                    <button class="bt bt-download margin-right-md margin-left-md">
                        <span class="text-purple">
@@ -69,8 +89,11 @@
                             
 
         </section>
+        <div class="division"></div>
+
+
         <section id="courses" class="margin-bottom-lg">
-            <div>
+            <div class="card-flex">
                 <div class="card">
                     <img src="resources/img/simbolos/CodeIcon.png" alt="programador">
                     <div class="card-text">
@@ -79,7 +102,7 @@
                         <span class="card-high">Programador</span>
                     </div>
                 </div>
-            <div>
+           
                 <div class="card">
                     <img src="resources/img/simbolos/DesignIcon.png" alt="designer">
                     <div class="card-text">
@@ -88,8 +111,7 @@
                         <span class="card-high">Designer</span>
                     </div>
                 </div>
-            </div>
-            <div>
+        
                 <div class="card card-destaque">
                     <img src="resources/img/simbolos/ProjectsIcon.png" alt="trabalhos">
                     <div class="card-text">
@@ -100,6 +122,9 @@
                 </div>
             </div>   
         </section>
+        
+        <div class="division"></div>
+
         <section id="bio">
 
             <div class="linha">
@@ -111,29 +136,27 @@
                 </div>
         
                 <div class="coluna">
-                    <div class="topic container-saudacao "> 
-                        <div>
-                            <span>🧐 Sobre mim</span>
-                        </div>    
+                    <div  class="topic container-saudacao ">
+                        <span>🧐 Sobre mim</span>
+                        <span class="nome">Washington Henrique</span>
+                    </div> 
+                    <br>   
+                    
+                    <div class="coluna text-opaco text-justify">
+                        <span class=""> Mas pode me chamar apenas de Henrique. Prazer! Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript. Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos. Interesses em desenvolvimento Front-end com React, React Native e UX/UI Design.</span>
+                        <br>
+                        <span class="">🚀 Tentando ser um pouquinho melhor do que ontem todos os dias.</span>
                     </div>
                 </div>
            
-                <div class="coluna">
-                    <div class="">
-                        <span class="nome">Washington Henrique</span>
-                    </div>
-                </div>
-            </div>
             
-            <div class="linha">
-                <div class="coluna text-opaco text-justify">
-                    <p class=""> Mas pode me chamar apenas de Henrique. Prazer! Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript. Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos. Interesses em desenvolvimento Front-end com React, React Native e UX/UI Design.</p>
-                    <br>
-                    <p class="">🚀 Tentando ser um pouquinho melhor do que ontem todos os dias.</p>
-                </div>
+                
             </div>
             
         </section>
+
+
+        
         <!--<section id="portfolio">
             <div class="topic container-saudacao"> 🔗 Portfólio </div>
             <div class="margin-md">
