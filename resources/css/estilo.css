@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
  /*versão mobile first */
 
+
+
  :root {
     --main-font: 'Raleway', sans-serif;
 }
@@ -21,7 +23,6 @@ body{
     
     
 }
-
 
 img{
     margin: auto;
@@ -42,14 +43,16 @@ figure{
 
 .img-avatar{
     border-radius: 10px 60px;
-    width: 400px;
+    width: 100%;
 }
 
-.main-icons{
+.main-icons-mobile{
     text-align: center;
     margin-top: 25px;
 }
-
+.main-icons-desktop{
+    display: none;
+}
 .social-icons{
     margin: 0 5px;
     
@@ -241,3 +244,7 @@ line-height: normal;
 
 }
 
+.head-menu{
+    display: none;
+}
+    
