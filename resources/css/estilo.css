@@ -96,6 +96,12 @@ line-height: normal;
  .nome-completo{
     display: none;
  }
+
+ .bio-text-desktop{
+    display: none;
+ }
+
+
  .trabalhos-projetos{
     font-family: sans-serif;
     font-size: 50px;
@@ -229,7 +235,6 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 178.571% */
-    margin-top: 30px;
     margin-left: 5px;
 }
 .text-purple{
