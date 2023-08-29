@@ -21,6 +21,8 @@
         margin: 2rem auto;
         padding-left: 30px;
         justify-content: end;
+
+
     }
     .head-menu-options{
         width: 99.152px;
@@ -37,19 +39,48 @@
         font-weight: 400;
         line-height: normal;
         margin-top: 1.2rem;
+        text-decoration: none;
         
     } 
+     .head-menu-options-text-purple{
+        width: 99.152px;
+        height: 37px;
+        transform: rotate(-0.032deg);
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: rgba(123, 74, 226, 0.50);
+        text-align: center;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 1.2rem;
+        text-decoration: none;
+
+    }
+
+    .head-menu img{
+        justify-content: flex-end;
+    }
  
     .main:nth-child(1){
         order: 2;
     }
+
     .main:nth-child(2){
         order: 1;
+
     }.main:nth-child(3){
         order: 3;
     }
 
-    .main-icons{
+    .main-icons-desktop{
+        display: block;
+    }
+
+    .main-icons-mobile{
         display: none;
     }
     
@@ -74,6 +105,53 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+
+    .nome{
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .flex-container{
+        justify-content: left;
+    }
+
+    .job-title{
+        display: flex;
+        width: 411.33px;
+        height: 37px;
+        transform: rotate(-0.033deg);
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: rgba(255, 255, 255, 0.50);
+        text-align: justify;
+        font-family: Raleway;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+   
+    .img-avatar{
+        max-width: 510px;
+        max-height: 510px;
+    }
+
+    .main-bts{
+        width: 412px;
+    }
+
+    .main-bts-section{
+        width: 185px;
+    }
+
+    .right{
+        float: right;
     }
 }
 
