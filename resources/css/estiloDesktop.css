@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px)  {
 
     .container {
         max-width: 95%;
@@ -228,6 +228,10 @@
 
     .right {
         float: right;
+    }
+    .footer-section-mobile{
+        display: none;
+
     }
 
 }
