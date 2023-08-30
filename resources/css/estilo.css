@@ -3,12 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
  /*versão mobile first */
 
-
-
  :root {
     --main-font: 'Raleway', sans-serif;
 }
- 
+
  body{
     font-family: var(--main-font);
     margin: 0px;
@@ -85,12 +83,12 @@ figure{
  }
 
  .nome{
-color: #FFF;
-font-family: Raleway;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
  }
 
  .nome-completo{
