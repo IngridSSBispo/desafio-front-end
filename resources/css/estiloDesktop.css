@@ -1,22 +1,23 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 601px) {
- 
-    .container{
+
+    .container {
         max-width: 95%;
         margin: auto;
     }
-    .container-profile{
-        display: flex;  
+
+    .container-profile {
+        display: flex;
         align-items: center;
-        justify-content: center;      
+        justify-content: center;
     }
 
-    .container-nome{
+    .container-nome {
         margin-top: 20px;
     }
 
-    .head-menu{
+    .head-menu {
         max-width: 95%;
         height: 64px;
         flex-shrink: 0;
@@ -29,7 +30,8 @@
 
 
     }
-    .head-menu-options{
+
+    .head-menu-options {
         width: 99.152px;
         height: 37px;
         transform: rotate(-0.032deg);
@@ -45,9 +47,10 @@
         line-height: normal;
         margin-top: 1.2rem;
         text-decoration: none;
-        
-    } 
-     .head-menu-options-text-purple{
+
+    }
+
+    .head-menu-options-text-purple {
         width: 99.152px;
         height: 37px;
         transform: rotate(-0.032deg);
@@ -66,16 +69,16 @@
     }
 
     /*estudar outras solucoes*/
-    .logo-menu{
+    .logo-menu {
         float: left;
         margin-right: 40rem;
     }
 
-    .bio-text{
+    .bio-text {
         display: none;
     }
 
-    .bio-text-desktop{
+    .bio-text-desktop {
         display: flex;
         color: rgba(255, 255, 255, 0.50);
         font-family: Raleway;
@@ -84,48 +87,52 @@
         font-weight: 400;
         line-height: 25px;
         text-align: right;
-     }
+    }
 
- 
-    .main:nth-child(1){
+
+    .main:nth-child(1) {
         order: 2;
     }
 
-    .main:nth-child(2){
+    .main:nth-child(2) {
         order: 1;
 
-    }.main:nth-child(3){
+    }
+
+    .main:nth-child(3) {
         order: 3;
     }
 
-    .main-icons-desktop{
+    .main-icons-desktop {
         display: block;
     }
 
-    .main-icons-mobile{
+    .main-icons-mobile {
         display: none;
     }
-    
-    .division{
+
+    .division {
         border: solid 1;
-        width: 100%;
+        width: 1920px;
         height: 1px;
         background: rgba(123, 74, 226, 0.20);
     }
-    .card-flex{
+
+    .card-flex {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
     }
-    .card{
+
+    .card {
         flex-direction: column;
         margin: 3rem;
         margin-top: 6.25rem;
         margin-bottom: 2rem;
-    } 
+    }
 
-    .card-frontend{
+    .card-frontend {
         display: flex;
         width: 950px;
         height: 110px;
@@ -135,11 +142,13 @@
         margin-left: 16rem;
         margin-bottom: 6.25rem;
     }
-    .card-frontend-content{
+
+    .card-frontend-content {
         margin: 4.3rem;
         text-align: center;
     }
-    .card-frontend-text{
+
+    .card-frontend-text {
         color: #7B4AE2;
         text-align: center;
         font-family: Raleway;
@@ -149,7 +158,7 @@
         line-height: normal;
     }
 
-    .card-frontend-text-high{
+    .card-frontend-text-high {
         color: #7B4AE2;
         text-align: center;
         font-family: Raleway;
@@ -159,16 +168,19 @@
         line-height: normal;
 
     }
-    .linha{
+
+    .linha {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .nome{
+
+    .nome {
         display: none;
     }
-    .nome-completo{
+
+    .nome-completo {
         display: flex;
         color: #FFF;
         font-family: Raleway;
@@ -176,15 +188,15 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-        
-    }
-    
 
-    .flex-container{
+    }
+
+
+    .flex-container {
         justify-content: left;
     }
 
-    .job-title{
+    .job-title {
         display: flex;
         width: 411.33px;
         height: 37px;
@@ -200,23 +212,22 @@
         font-weight: 400;
         line-height: normal;
     }
-   
-    .img-avatar{
+
+    .img-avatar {
         max-width: 510px;
         max-height: 510px;
     }
 
-    .main-bts{
+    .main-bts {
         width: 412px;
     }
 
-    .main-bts-section{
+    .main-bts-section {
         width: 185px;
     }
 
-    .right{
+    .right {
         float: right;
     }
-   
-}
 
+}

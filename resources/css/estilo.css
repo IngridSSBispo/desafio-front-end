@@ -1,77 +1,79 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
- /*versão mobile first */
+/*versão mobile first */
 
- :root {
+:root {
     --main-font: 'Raleway', sans-serif;
 }
 
- body{
+body {
     font-family: var(--main-font);
     margin: 0px;
     box-sizing: border-box;
     height: 100vh;
- }
+}
 
-body{
-    background-color:#090E16;
+body {
+    background-color: #090E16;
     color: #fff;
     background-position: center center;
-    
-    
+
+
 }
 
-img{
+img {
     margin: auto;
     max-width: 100%;
-    height: auto; 
-    
+    height: auto;
+
 }
 
-.img-center{
+.img-center {
     text-align: center;
 }
 
-figure{
+figure {
     display: inline-block;
     text-align: center;
     /*width: 80vh;*/
 }
 
-.img-avatar{
+.img-avatar {
     border-radius: 10px 60px;
     width: 100%;
 }
 
-.main-icons-mobile{
+.main-icons-mobile {
     text-align: center;
     margin-top: 25px;
 }
-.main-icons-desktop{
+
+.main-icons-desktop {
     display: none;
 }
-.social-icons{
+
+.social-icons {
     margin: 0 5px;
-    
+
 }
 
-.container{
+.container {
     max-width: 100%;
-    
+
 }
 
-.container-saudacao{
+.container-saudacao {
     border-radius: 8px;
     background: rgba(123, 74, 226, 0.10);
     width: 122px;
     height: 32px;
     flex-shrink: 0;
     padding-top: 5px;
-   
+
 }
 
- .saudacao{
+.saudacao {
     color: #7B4AE2;
     text-align: center;
     font-family: Raleway;
@@ -79,69 +81,74 @@ figure{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
- }
 
- .nome{
+}
+
+.nome {
     color: #FFF;
     font-family: Raleway;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
- }
+}
 
- .nome-completo{
+.nome-completo {
     display: none;
- }
+}
 
- .bio-text-desktop{
+.bio-text-desktop {
     display: none;
- }
+}
 
 
- .trabalhos-projetos{
+.trabalhos-projetos {
     font-family: sans-serif;
     font-size: 50px;
     font-weight: bold;
     color: #fff;
- }
- 
- .job-title{
+}
+
+.job-title {
     opacity: 50%;
     font-size: 20px;
- }
+}
 
 .linha {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .coluna {
-    margin: 10px 20px; 
+    margin: 10px 20px;
 }
 
 /* Flex */
 .flex {
-	display: flex;
+    display: flex;
 }
 
-.margin-md{
+.margin-md {
     margin-top: 20px;
 }
-.margin-right-md{
+
+.margin-right-md {
     margin-right: 10px;
 }
-.margin-left-md{
+
+.margin-left-md {
     margin-left: 10px;
 }
-.margin-top-md{
+
+.margin-top-md {
     margin-top: 1.3rem;
 }
-.margin-bottom-lg{
+
+.margin-bottom-lg {
     margin-bottom: 4rem;
 }
-.card{
+
+.card {
     padding: 35px 0;
     text-align: center;
     width: 246px;
@@ -152,32 +159,32 @@ figure{
     margin: 30px auto;
 }
 
-.card-destaque{
+.card-destaque {
     background: rgba(123, 74, 226, 0.10);
-    
-}
-.card-high{
-    font-weight: bold;
-    font-size: 30px;
-   
+
 }
 
-.card-label{
-    
+.card-high {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.card-label {
+
     font-size: 15px;
 }
 
-.card-text{
+.card-text {
     text-align: center;
 }
 
-.card-frontend{
+.card-frontend {
     display: none;
 
 }
 
-
-.card-projects{
+.card-projects {
     width: 90%;
     height: 550px;
     border: solid 1px #7B4AE2;
@@ -187,30 +194,30 @@ figure{
     text-align: left;
 }
 
-
 .card-text-projects {
     text-align: center;
 }
 
-
-.topic{
+.topic {
     color: #7B4AE2;
     padding: 5px;
 }
 
-.presentation{
+.presentation {
     opacity: 50%;
     font-size: 15px;
     text-align: justify;
 }
-.bt{
+
+.bt {
     background-color: #090E16;
     padding: 10px;
     font-size: 17px;
     display: inline-flex;
     align-items: center;
 }
-.bt-whats{
+
+.bt-whats {
     width: 178px;
     height: 44px;
     flex-shrink: 0;
@@ -218,25 +225,28 @@ figure{
     border: 1px solid rgba(123, 74, 226, 0.50);
 }
 
-.bt-download{
+.bt-download {
     border: none;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
-.text-opaco{
+
+.text-opaco {
     color: rgba(255, 255, 255, 0.50);
     text-align: justify;
     font-family: Raleway;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 178.571% */
+    line-height: 25px;
+    /* 178.571% */
     margin-left: 5px;
 }
-.text-purple{
-    
+
+.text-purple {
+
     color: rgba(123, 74, 226, 0.50);
     font-family: Raleway;
     font-size: 16px;
@@ -245,18 +255,17 @@ figure{
     line-height: normal;
 }
 
-.text-card-title{
+.text-card-title {
     font-size: 27px;
     font-weight: bold;
 }
 
-.link-behance{
+.link-behance {
     color: #7B4AE2;
     opacity: 50%;
 
 }
 
-.head-menu{
+.head-menu {
     display: none;
 }
-    
