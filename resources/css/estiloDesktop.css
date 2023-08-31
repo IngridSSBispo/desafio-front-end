@@ -70,8 +70,8 @@
 
     /*estudar outras solucoes*/
     .logo-menu {
-        float: left;
-        margin-right: 40rem;
+        position: absolute;
+        left: 0;
     }
 
     .bio-text {
