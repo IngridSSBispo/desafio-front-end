@@ -57,16 +57,14 @@ figure {
 
 }
 .icons-footer{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 15.09px 0; 
 
 }
 
 .footer-section-mobile{
     width: 100%;
-    height: 88px;
-    flex-shrink: 0;
+    height: 110px;
     background: rgba(123, 74, 226, 0.10);
 }
 
